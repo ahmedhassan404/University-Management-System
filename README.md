@@ -10,10 +10,6 @@ This is a simple **University Management System** implemented in Java. The syste
 - **Course Management**: Manage courses offered by the university.
 - **Classroom Management**: Manage classrooms and their capacities.
 
-## UML Diagram
-
-![University Management System UML](University Management System - UML Class Diagram.png)
-
 ## Classes
 
 - **Person**: Abstract class representing a person with basic information like name, date of birth, address, and telephone number.
@@ -68,6 +64,3 @@ public class University {
 }
 ```
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
