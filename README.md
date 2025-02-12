@@ -1,6 +1,6 @@
 # University Management System
 
-This is a simple University Management System implemented in Java. The system allows managing students, instructors, departments, courses, and classrooms.
+This is a simple **University Management System** implemented in Java. The system allows managing students, instructors, departments, courses, and classrooms.
 
 ## Features
 
@@ -9,6 +9,10 @@ This is a simple University Management System implemented in Java. The system al
 - **Department Management**: Manage departments within the university.
 - **Course Management**: Manage courses offered by the university.
 - **Classroom Management**: Manage classrooms and their capacities.
+
+## UML Diagram
+
+![University Management System UML](University Management System - UML Class Diagram.png)
 
 ## Classes
 
@@ -23,9 +27,22 @@ This is a simple University Management System implemented in Java. The system al
 
 ## Usage
 
-1. Clone the repository.
-2. Compile the Java files.
-3. Run the `University` class to initialize the system.
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/university-management-system.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd university-management-system
+   ```
+3. Compile the Java files:
+   ```sh
+   javac *.java
+   ```
+4. Run the `University` class to initialize the system:
+   ```sh
+   java University
+   ```
 
 ## Example
 
@@ -49,3 +66,8 @@ public class University {
         instructor.displayInfo();
     }
 }
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
